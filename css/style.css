@@ -1,0 +1,35 @@
+/* for navbar */
+.color-lightgreen{
+    color: #67FEDA;
+}
+.contents{
+    color: #ffffff;
+    font-size: 14pt;
+    font-family: 'typewritter';
+}
+
+.resume-btn{
+    border-style: solid;
+    border-color: #67FEDA;
+}
+/* --------------------- */
+
+/* for email */
+.email{
+    font-family: "typewritter";
+    font-size: 12pt;
+    color: #7881A0;
+    padding-right: 50px;
+    writing-mode: vertical-rl;
+   
+}
+.p-c{
+    padding-right: 12px;
+}
+.vl {
+    border-right: 3px solid  #7881A0 ;
+    height: 153px;
+  }
+  /* --------------------- */
+
+  
