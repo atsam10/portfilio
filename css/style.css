@@ -1,35 +1,80 @@
 /* for navbar */
-.color-lightgreen{
-    color: #67FEDA;
+.color-lightgreen {
+  color: #67feda;
 }
-.contents{
-    color: #ffffff;
-    font-size: 14pt;
-    font-family: 'typewritter';
+.typewitter {
+  font-family: "typewritter";
+}
+.contents {
+  color: #ffffff;
+  font-size: 14pt;
+  font-family: "typewritter";
 }
 
-.resume-btn{
-    border-style: solid;
-    border-color: #67FEDA;
+.resume-btn {
+  border-style: solid;
+  border-color: #67feda;
 }
 /* --------------------- */
 
 /* for email */
-.email{
-    font-family: "typewritter";
-    font-size: 12pt;
-    color: #7881A0;
-    padding-right: 50px;
-    writing-mode: vertical-rl;
-   
+.email {
+  font-family: "typewritter";
+  font-size: 12pt;
+  color: #7881a0;
+  padding-right: 50px;
+  writing-mode: vertical-rl; /*writing the text in side ways*/
 }
-.p-c{
-    padding-right: 12px;
+.mail {
+  font-family: "typewritter";
+  font-size: 12pt;
+  color: #7881a0;
 }
-.vl {
-    border-right: 3px solid  #7881A0 ;
-    height: 153px;
-  }
-  /* --------------------- */
+.mail:hover {
+  color: #67feda;
+}
 
-  
+.p-c {
+  padding-right: 12px;
+}
+
+/* for vertical line */
+.vl {
+  border-right: 3px solid #7881a0;
+  height: 153px;
+}
+/* --------------------- */
+
+/* for social bar */
+.social_btn {
+  background-color: #7881a0;
+  margin-left: 50px;
+}
+
+.social_btn:hover {
+  background-color: #67feda;
+}
+.social_btn:active {
+  background-color: rgb(70, 140, 117);
+}
+/* --------------------- */
+
+/* for aboutme page */
+#myname {
+  color: #ccd5f5;
+  font-size: 38pt;
+  font-family: Arial black;
+}
+#intro {
+  color: #8891b0;
+  font-size: 35pt;
+  font-family: Arial black;
+}
+#description {
+  width: 484px;
+  color: #7881a0;
+  font-size: 14pt;
+  font-family: Arial;
+}
+
+

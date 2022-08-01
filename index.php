@@ -13,15 +13,23 @@
     <script src="js/script.js"> </script>
 </head>
 
-<body style ="background : #0A192F">
-<!-- style ="background : #0A192F" -->
+<body style="background : #0A192F">
+    <!-- style ="background : #0A192F" -->
 
     <?php
-        include('containers/navbar.php');
-        include('containers/email.php');
-        include('containers/social.php');
-
+    include('containers/navbar.php');
+    include('containers/email.php');
+    include('containers/social.php');
     ?>
+
+    <div class="about_me row" style="min-height: 80vh;">
+        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            <?php
+            include('contents/aboutme.php');
+
+            ?>
+        </div>
+    </div>
 
 </body>
 
