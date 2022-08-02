@@ -22,13 +22,20 @@
     include('containers/social.php');
     ?>
 
-    <div class="about_me row" style="min-height: 80vh;">
+    <div class="home row" style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/aboutme.php');
-
-            ?>
+            include('contents/home.php');       
+           ?>
         </div>
+    </div>
+    <div class="about_me row" style="min-height: 50vh;">
+        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            <?php
+            include('contents/aboutme.php');       
+           ?>
+        </div>
+       
     </div>
 
 </body>

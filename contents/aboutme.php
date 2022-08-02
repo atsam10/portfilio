@@ -1,6 +1,6 @@
 <div class="container aboutme p-3">
 
-<div class="color-lightgreen typewitter">Hi, my name is </div> <br>
+<div class=" typewitter"><div class="color-lightgreen">01</div> About me </div>     <div class="vl"></div> <br>
 <div class=" pb-2" > <span id="myname">Aashish Gurung</span> <br>
 <span class="" id="intro">I build things for the web.<br></span>
 </div>

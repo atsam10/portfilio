@@ -1,5 +1,5 @@
     <!-- nav bar -->
-    <nav class="navbar  navbar-expand-lg navbar-light bg-*">
+    <nav class="navbar  navbar-expand-lg navbar-light bg-* sticky-top">
 
         <div class="container-fluid d-flex justify-content-between">
 
