@@ -2,6 +2,9 @@
 .color-lightgreen {
   color: #67feda;
 }
+.color-white {
+  color: #ffffff;
+}
 .typewitter {
   font-family: "typewritter";
 }
@@ -59,7 +62,7 @@
 }
 /* --------------------- */
 
-/* for aboutme page */
+/* for home page */
 #myname {
   color: #ccd5f5;
   font-size: 38pt;
@@ -76,5 +79,11 @@
   font-size: 14pt;
   font-family: Arial;
 }
+/* FOR ABOUT ME PAGE */
 
+#abt_description {
 
+  color: #7881a0;
+  font-size: 14pt;
+  font-family: Arial;
+}
