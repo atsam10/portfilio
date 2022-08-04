@@ -1,4 +1,9 @@
 /* for navbar */
+#navbar{
+ 
+  transition-duration: 0.25s;
+}
+
 .color-lightgreen {
   color: #67feda;
 }
@@ -17,6 +22,16 @@
 .resume-btn {
   border-style: solid;
   border-color: #67feda;
+}
+
+.resume-btn:hover{
+  background-color: #133040;
+}
+.abt , #exp , #works , #contact{
+  color: #ffffff;
+}
+.abt:hover , #exp:hover , #works:hover , #contact:hover{
+  color: #67feda;
 }
 /* --------------------- */
 
@@ -46,6 +61,9 @@
   border-right: 3px solid #7881a0;
   height: 153px;
 }
+.hl {
+  border-bottom: 3px solid #20314f;
+}
 /* --------------------- */
 
 /* for social bar */
@@ -56,9 +74,12 @@
 
 .social_btn:hover {
   background-color: #67feda;
+  transform:scale(1.25,1.25);
+  transition-duration: 0.25s;
 }
 .social_btn:active {
   background-color: rgb(70, 140, 117);
+  
 }
 /* --------------------- */
 
@@ -80,10 +101,54 @@
   font-family: Arial;
 }
 /* FOR ABOUT ME PAGE */
-
+.title {
+  font-size: 16pt;
+}
 #abt_description {
-
   color: #7881a0;
   font-size: 14pt;
   font-family: Arial;
 }
+
+
+
+
+.blended-image {
+  background-image: url("../images/profile.JPG");
+  background-size: 256px 396px;
+  background-color: #67feda;
+
+  background-blend-mode: multiply;
+
+ 
+  transform: translate(-40px,-40px);
+  width: 256px;
+  height: 396px;
+  border: 1px solid;
+  border-spacing: 20px;
+  z-index: 2;
+  margin: 20px;
+}
+.shadow-box {
+ transform: translateY(20px);
+  width: 256px;
+  height: 396px;
+  border: 1px solid;
+  border-color: #67feda;
+  border-spacing: 20px;
+  z-index: 1;
+
+  margin: 20px;
+}
+
+.blended-image:hover{
+  transform: translate(-30px,-30px);
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  transition-duration: 0.25s;
+
+}
+
+
+
+/* --------------------- */

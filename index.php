@@ -29,10 +29,38 @@
            ?>
         </div>
     </div>
-    <div class="about_me row" style="min-height: 50vh;">
+    <div class="about_me row" style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
             include('contents/aboutme.php');       
+                 
+           ?>
+        </div>
+       
+    </div>
+    <div class="about_me row" style="min-height: 100vh;">
+        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            <?php
+            include('contents/work.php');       
+                 
+           ?>
+        </div>
+       
+    </div>
+    <div class="about_me row" style="height: 100vh;">
+        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            <?php
+            include('contents/projects.php');       
+                 
+           ?>
+        </div>
+       
+    </div>
+    <div class="about_me row" style="min-height: 100vh;">
+        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            <?php
+            include('contents/thankyou.php');       
+                 
            ?>
         </div>
        
