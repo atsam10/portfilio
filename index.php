@@ -38,7 +38,7 @@
         </div>
        
     </div>
-    <div class="about_me row" style="min-height: 100vh;">
+    <div class="work row" style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
             include('contents/work.php');       
@@ -47,7 +47,7 @@
         </div>
        
     </div>
-    <div class="about_me row" style="height: 100vh;">
+    <div class="projects row" style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
             include('contents/projects.php');       
@@ -56,7 +56,7 @@
         </div>
        
     </div>
-    <div class="about_me row" style="min-height: 100vh;">
+    <div class="contact row" style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
             include('contents/thankyou.php');       

@@ -49,6 +49,8 @@
   color: #7881a0;
 }
 .mail:hover {
+  transition-duration: 0.25s;
+  letter-spacing: 0.51px;
   color: #67feda;
 }
 
