@@ -33,6 +33,7 @@
 .abt:hover , #exp:hover , #works:hover , #contact:hover{
   color: #67feda;
 }
+
 /* --------------------- */
 
 /* for email */
@@ -119,10 +120,7 @@
   background-image: url("../images/profile.JPG");
   background-size: 256px 396px;
   background-color: #67feda;
-
   background-blend-mode: multiply;
-
- 
   transform: translate(-40px,-40px);
   width: 256px;
   height: 396px;
@@ -154,3 +152,14 @@
 
 
 /* --------------------- */
+
+
+/* for work */
+
+
+.work{
+  margin-left: 214.5px;
+  max-width: 700px;
+  margin-right: 214.5px;
+ 
+}
