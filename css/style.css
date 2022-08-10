@@ -87,6 +87,10 @@
 /* --------------------- */
 
 /* for home page */
+.width_managed{
+  max-width: 1000px;
+  max-height: 882px;
+}
 #myname {
   color: #ccd5f5;
   font-size: 38pt;
@@ -103,6 +107,7 @@
   font-size: 14pt;
   font-family: Arial;
 }
+
 /* FOR ABOUT ME PAGE */
 .title {
   font-size: 16pt;
@@ -163,3 +168,48 @@
   margin-right: 214.5px;
  
 }
+
+.work_place{
+  font-size:  13px ;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #67feda;
+ 
+}
+
+.work_role{
+  color: #ccd6f6 ;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.work_period{
+  color:#a8b2d1;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 13px;
+  margin-bottom: 25px ;
+}
+
+.work_des{
+  color: #8892b0;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system" , system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 23.4px;
+
+}
+
+.des_list{
+
+list-style-type: none;
+font-size: 17px;
+
+}
+.des_des::before{
+
+content:  "▹";
+color: #67feda;              
+display: inline-block;
+width: 1em;
+margin-left: -1em;
+}
+

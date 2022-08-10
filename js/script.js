@@ -15,7 +15,7 @@ function Get_info(work_place){
   var   wp = document.getElementById("work_place");
   var   wr = document.getElementById("work_role");
   var   wpe = document.getElementById("work_period");
-  var   wd = document.getElementById("work_description");
+  var   wd = document.getElementById("work_des");
 
   if(work_place = "909IT"){
       wr.innerHTML = "Software Developer (Intern)";

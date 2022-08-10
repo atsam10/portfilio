@@ -1,4 +1,4 @@
-<div class="container projects p-4">
+<div class="container width_managed projects p-4">
 <a  id="work"></a>
 
 

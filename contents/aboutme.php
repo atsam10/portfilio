@@ -1,4 +1,4 @@
-<div class="container aboutme p-3">
+<div class="container width_managed p-3">
 <a  id="about"></a>
 
     <div class=" title color-white typewitter"><span class="color-lightgreen">01.</span> About me </div>

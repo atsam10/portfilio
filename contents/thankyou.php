@@ -1,4 +1,4 @@
-<div class="container thank_you p-4">
+<div class="container width_managed thank_you p-4">
 <a  id="contactme"></a>
 
     <div class=" title color-white typewitter"><span class="color-lightgreen">04.</span>What's next</div>
