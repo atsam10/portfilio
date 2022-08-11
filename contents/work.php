@@ -20,17 +20,17 @@
 
                                 <div class="Work_title col-3 p-2 ">
                                     <div class="row">
-                                        <button class="btn px-3">
+                                        <button class="work_P btn px-3" onclick="Get_info('909IT')">
                                             <sapn class="work_place">909IT Solutions Pty Ltd </sapn>
                                         </button>
                                     </div>
                                     <div class="row">
-                                        <button class="btn px-3">
+                                        <button class=" work_P btn px-3" onclick="Get_info('TSR')">
                                             <sapn class="work_place">The Spice room </sapn>
                                         </button>
                                     </div>
                                     <div class="row">
-                                        <button class="btn px-3">
+                                        <button class=" work_P btn px-3" onclick="Get_info('ME')">
                                             <sapn class="work_place">Me Coffee </sapn>
                                         </button>
                                     </div>
@@ -39,11 +39,11 @@
 
                                 <div class="p-2 col px-2">
 
-                                    <div class="work_role">
+                                    <div class="work_role" id="work_role">
                                         Software Developer ( <span class="color-lightgreen"> Intern </span> )
                                     </div>
-                                    <div class="work_period">Feb 2022 - Present (6 months +)</div>
-                                    <div class="work_des">
+                                    <div class="work_period" id = "work_period">Feb 2022 - Present (6 months +)</div>
+                                    <div class="work_des" id="work_des">
                                         <ul class="des_list">
                                             <li class="des_des">
                                                 Demonstrated knowledge of development tools and methodologies such as Source
