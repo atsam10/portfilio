@@ -226,3 +226,17 @@ margin-left: -1em;
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+/* --------------------- */
+
+
+/* for Projects*/
+
+
+.proj_img{
+  background-image: url("../images/TSR.JPEG");
+  background-size: 580px 396px;
+  background-color: #67feda;
+  background-blend-mode: multiply;
+  width: 580px;
+  height: 396px;
+}
