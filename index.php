@@ -13,7 +13,7 @@
     <script src="js/script.js"> </script>
 </head>
 
-<body style="background : #0A192F">
+<body style="background : #0B192F">
     <!-- style ="background : #0A192F" -->
 
     <?php
@@ -51,15 +51,15 @@
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
             include('contents/projects.php');       
-                 
+       
            ?>
         </div>
        
     </div>
-    <div class="contact row" style="min-height: 100vh;">
+    <div class="contact row" style="min-height: 150vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/thankyou.php');       
+                    include('contents/thankyou.php');  
                  
            ?>
         </div>

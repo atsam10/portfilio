@@ -4,7 +4,8 @@
         <div class="container-fluid d-flex justify-content-between">
 
             <div class="logo">
-                logo
+                <img src="./images/logo.PNG" alt="here lies logo"  height="50px" width="50px
+                ">
             </div>
 
             <div class="contents d-flex flex-row mb-3">

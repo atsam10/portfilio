@@ -232,11 +232,56 @@ margin-left: -1em;
 /* for Projects*/
 
 
-.proj_img{
-  background-image: url("../images/TSR.JPEG");
+.proj_img_BM{
+  background-image: url("../images/TSR.png");
   background-size: 580px 396px;
-  background-color: #67feda;
+  background-color:#67feda;
   background-blend-mode: multiply;
   width: 580px;
   height: 396px;
+}
+.proj_img_Nu{
+  background-image: url("../images/nutrition.png");
+  background-size: 580px 396px;
+  background-color:#67feda;
+  background-blend-mode: multiply;
+  width: 580px;
+  height: 396px;
+}
+.proj_img_IIB{
+  background-image: url("../images/IIbridges.png");
+  background-size: 580px 396px;
+  background-color:#67feda;
+  background-blend-mode: multiply;
+  width: 580px;
+  height: 396px;
+}
+
+.proj_img_BM:hover ,
+.proj_img_Nu:hover , 
+.proj_img_IIB:hover {
+
+
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  transition-duration: 0.25s;
+}
+
+.Proj_title{
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  color:#ccd6f6 ;
+}
+.Proj_title:hover{
+  
+  color:#67feda ;
+}
+
+.pej_des{
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  font-size: 18px;
+  color: #a8b2d1;
+}
+.prj_icon:hover{
+  transform: scale(1.2,1.2);
+  color: #67feda;
 }
