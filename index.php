@@ -13,7 +13,7 @@
     <script src="js/script.js"> </script>
 </head>
 
-<body style="background : #0B192F">
+<body style="background : #0A192F ">
     <!-- style ="background : #0A192F" -->
 
     <?php
@@ -22,49 +22,55 @@
     include('containers/social.php');
     ?>
 
-    <div class="home row" style="min-height: 100vh;">
+    <div class="home row  " style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/home.php');       
-           ?>
+            include('contents/home.php');
+            ?>
         </div>
     </div>
-    <div class="about_me row" style="min-height: 100vh;">
+    <div class="about_me row  " style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/aboutme.php');       
-                 
-           ?>
+            include('contents/aboutme.php');
+
+            ?>
         </div>
-       
+
     </div>
-    <div class="work row" style="min-height: 100vh;">
+    <div class="work row  " style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/work.php');       
-                 
-           ?>
+            include('contents/work.php');
+
+            ?>
         </div>
-       
+
     </div>
-    <div class="projects row" style="min-height: 100vh;">
+    <div class="projects row  " style="min-height: 100vh;">
         <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
             <?php
-            include('contents/projects.php');       
-       
-           ?>
-        </div>
-       
-    </div>
-    <div class="contact row" style="min-height: 150vh;">
-        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+            include('contents/projects.php');
+
+            ?>
+            <div class="contact row m-4 " style="min-height: 80vh;">
+                <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+
+                    <?php
+                    include('contents/thankyou.php');
+
+                    ?>
+                </div>
+
+            </div>
             <?php
-                    include('contents/thankyou.php');  
-                 
-           ?>
+            include('containers/footer.php');
+            ?>
         </div>
-       
+
     </div>
+
+   
 
 </body>
 

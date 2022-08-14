@@ -1,19 +1,31 @@
-<div class="container width_managed thank_you p-4">
-<a  id="contactme"></a>
+<div class="container width_managed text-center thank_you p-4 ">
+    <a id="contactme"></a>
 
-    <div class=" title color-white typewitter"><span class="color-lightgreen">04.</span>What's next</div>
-    <div class="hl">
-    </div> <br>
-    <div class="d-flex">
+    <div class=" title color-lightgreen typewitter pt-4 text-center" style="font-size: 16px">04. What's next</div>
+
+    <br>
+    <span class="get_in_touch">
+        <h2>GET IN TOUCH</h2>
+    </span>
+
+
+    <div class="d-flex" style="align-items: center;">
 
 
         <div class="p-2 w-100">
 
-            <div class="pt-1 " id="abt_description">
+            <div class="pt-1 pb-2 " id="tnx_des">
 
+                some desctiption
 
+            </div>
+            <div class="pt-4 ">
+                <a href="mailto:atsam.developer@gmail.com" class="resume-btn p-2 btn ">
+                    <span class="color-lightgreen">Say Hello</span>
+                </a>
 
             </div>
         </div>
 
     </div>
+</div>

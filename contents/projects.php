@@ -36,7 +36,7 @@
                                     </div>
 
                                     <div class="prj_des  px-2 pt-3 pb-3" style="background-color: #122240">
-                                        A Bar Manual made for a resturant I worked in.
+                                        A web application developed 
                                     </div>
                                     <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-end" style="color: #ffffff;  transform: scale(1.2,1.2);">
 
@@ -74,7 +74,7 @@
                                     <div class="prj_des  px-2 pt-3 pb-3" style="background-color: #122240">
                                         A Bar Manual made for a resturant I worked in.
                                     </div>
-                                    <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-end" style="color: #ffffff;  transform: scale(1.2,1.2);">
+                                    <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-start" style="color: #ffffff;  transform: scale(1.2,1.2);">
 
                                         <div class="px-2 prj_icon"> <i class="fa-brands fa-html5"></i></div>
                                         <div class="px-2 prj_icon"> <i class="fa-brands fa-php"></i></div>

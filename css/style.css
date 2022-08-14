@@ -1,6 +1,5 @@
 /* for navbar */
-#navbar{
- 
+#navbar {
   transition-duration: 0.25s;
 }
 
@@ -24,13 +23,19 @@
   border-color: #67feda;
 }
 
-.resume-btn:hover{
+.resume-btn:hover {
   background-color: #133040;
 }
-.abt , #exp , #works , #contact{
+.abt,
+#exp,
+#works,
+#contact {
   color: #ffffff;
 }
-.abt:hover , #exp:hover , #works:hover , #contact:hover{
+.abt:hover,
+#exp:hover,
+#works:hover,
+#contact:hover {
   color: #67feda;
 }
 
@@ -77,17 +82,16 @@
 
 .social_btn:hover {
   background-color: #67feda;
-  transform:scale(1.25,1.25);
+  transform: scale(1.25, 1.25);
   transition-duration: 0.25s;
 }
 .social_btn:active {
   background-color: rgb(70, 140, 117);
-  
 }
 /* --------------------- */
 
 /* for home page */
-.width_managed{
+.width_managed {
   max-width: 1000px;
   max-height: 882px;
 }
@@ -118,15 +122,12 @@
   font-family: Arial;
 }
 
-
-
-
 .blended-image {
   background-image: url("../images/profile.JPG");
   background-size: 256px 396px;
   background-color: #67feda;
   background-blend-mode: multiply;
-  transform: translate(-40px,-40px);
+  transform: translate(-40px, -40px);
   width: 256px;
   height: 396px;
   border: 1px solid;
@@ -135,7 +136,7 @@
   margin: 20px;
 }
 .shadow-box {
- transform: translateY(20px);
+  transform: translateY(20px);
   width: 256px;
   height: 396px;
   border: 1px solid;
@@ -146,142 +147,151 @@
   margin: 20px;
 }
 
-.blended-image:hover{
-  transform: translate(-30px,-30px);
+.blended-image:hover {
+  transform: translate(-30px, -30px);
   background-color: #ffffff;
   background-blend-mode: multiply;
   transition-duration: 0.25s;
-
 }
-
-
 
 /* --------------------- */
 
-
 /* for work */
 
-.work_P:hover{
+.work_P:hover {
   background-color: #8892b0;
 }
 
-.work{
+.work {
   margin-left: 214.5px;
   max-width: 700px;
   margin-right: 214.5px;
- 
 }
 
-.work_place{
-  font-size:  13px ;
+.work_place {
+  font-size: 13px;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   color: #67feda;
- 
 }
 
-.work_role{
-  color: #ccd6f6 ;
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+.work_role {
+  color: #ccd6f6;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
   font-size: 22px;
   font-weight: 500;
 }
 
-.work_period{
-  color:#a8b2d1;
+.work_period {
+  color: #a8b2d1;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   font-size: 13px;
-  margin-bottom: 25px ;
+  margin-bottom: 25px;
 }
 
-.work_des{
+.work_des {
   color: #8892b0;
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", "-apple-system" , system-ui, sans-serif;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text",
+    "-apple-system", system-ui, sans-serif;
   font-size: 18px;
   line-height: 23.4px;
-
 }
 
-.des_list{
-
-list-style-type: none;
-font-size: 17px;
-
+.des_list {
+  list-style-type: none;
+  font-size: 17px;
 }
-.des_des::before{
-
-content:  "▹";
-color: #67feda;              
-display: inline-block;
-width: 1em;
-margin-left: -1em;
+.des_des::before {
+  content: "▹";
+  color: #67feda;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
-.work_description{
+.work_description {
   animation: fadeIn 5s;
-
 }
-
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /* --------------------- */
 
-
 /* for Projects*/
 
-
-.proj_img_BM{
+.proj_img_BM {
   background-image: url("../images/TSR.png");
-  background-size: 580px 396px;
-  background-color:#67feda;
-  background-blend-mode: multiply;
-  width: 580px;
-  height: 396px;
-}
-.proj_img_Nu{
-  background-image: url("../images/nutrition.png");
-  background-size: 580px 396px;
-  background-color:#67feda;
-  background-blend-mode: multiply;
-  width: 580px;
-  height: 396px;
-}
-.proj_img_IIB{
-  background-image: url("../images/IIbridges.png");
-  background-size: 580px 396px;
-  background-color:#67feda;
-  background-blend-mode: multiply;
-  width: 580px;
-  height: 396px;
-}
-
-.proj_img_BM:hover ,
-.proj_img_Nu:hover , 
-.proj_img_IIB:hover {
-
-
+  background-size: 609px 396px;
   background-color: #ffffff;
+  background-blend-mode: multiply;
+  width: 609px;
+  height: 396px;
+}
+.proj_img_Nu {
+  background-image: url("../images/nutrition.png");
+  background-size: 609px 396px;
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+  width: 609px;
+  height: 396px;
+}
+.proj_img_IIB {
+  background-image: url("../images/IIbridges.png");
+  background-size: 609px 396px;
+  background-color:#ffffff;
+  background-blend-mode: multiply;
+  width: 609px;
+  height: 396px;
+}
+
+.proj_img_BM:hover,
+.proj_img_Nu:hover,
+.proj_img_IIB:hover {
+  background-color: #67feda;
   background-blend-mode: multiply;
   transition-duration: 0.25s;
 }
 
-.Proj_title{
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
-  color:#ccd6f6 ;
+.Proj_title {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  color: #ccd6f6;
 }
-.Proj_title:hover{
-  
-  color:#67feda ;
+.Proj_title:hover {
+  color: #67feda;
 }
 
-.pej_des{
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+.pej_des {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
   font-size: 18px;
   color: #a8b2d1;
 }
-.prj_icon:hover{
-  transform: scale(1.2,1.2);
+.prj_icon:hover {
+  transform: scale(1.2, 1.2);
   color: #67feda;
 }
+
+.get_in_touch {
+  margin: 0px 0px 10px;
+  font-weight: 600;
+  font-size: 60px;
+
+  line-height: 66px;
+  color: rgb(204, 214, 246);
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text";
+}
+
+#tnx_des {
+  color: rgb(136, 146, 176);
+  font-size: 20px;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif
+}
+
+/* --------------------- */
