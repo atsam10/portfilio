@@ -16,7 +16,8 @@
 
             <div class="pt-1 pb-2 " id="tnx_des">
 
-                some desctiption
+             I’m  currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+
 
             </div>
             <div class="pt-4 ">

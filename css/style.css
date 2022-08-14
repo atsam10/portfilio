@@ -1,3 +1,6 @@
+.unavailable{
+  visibility: hidden;
+}
 /* for navbar */
 #navbar {
   transition-duration: 0.25s;
@@ -234,6 +237,7 @@
   height: 396px;
 }
 .proj_img_Nu {
+
   background-image: url("../images/nutrition.png");
   background-size: 609px 396px;
   background-color: #ffffff;
@@ -268,6 +272,7 @@
 }
 
 .pej_des {
+
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   font-size: 18px;
@@ -289,9 +294,23 @@
 }
 
 #tnx_des {
-  color: rgb(136, 146, 176);
+  color: rgb(168, 178, 209);
   font-size: 20px;
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif
 }
 
 /* --------------------- */
+
+/* for responsivness */
+
+
+/* resposivness */
+@media (max-width: 960px) {
+ .Portfilio{
+  visibility: hidden;
+ }
+ .unavailable{
+  visibility: visible;
+}
+
+}

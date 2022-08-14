@@ -15,63 +15,72 @@
 
 <body style="background : #0A192F ">
     <!-- style ="background : #0A192F" -->
+    <div class="Portfilio">
+        <?php
+        include('containers/navbar.php');
+        include('containers/email.php');
+        include('containers/social.php');
+        ?>
 
-    <?php
-    include('containers/navbar.php');
-    include('containers/email.php');
-    include('containers/social.php');
-    ?>
-
-    <div class="home row  " style="min-height: 100vh;">
-        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
-            <?php
-            include('contents/home.php');
-            ?>
-        </div>
-    </div>
-    <div class="about_me row  " style="min-height: 100vh;">
-        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
-            <?php
-            include('contents/aboutme.php');
-
-            ?>
-        </div>
-
-    </div>
-    <div class="work row  " style="min-height: 100vh;">
-        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
-            <?php
-            include('contents/work.php');
-
-            ?>
-        </div>
-
-    </div>
-    <div class="projects row  " style="min-height: 100vh;">
-        <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
-            <?php
-            include('contents/projects.php');
-
-            ?>
-            <div class="contact row m-4 " style="min-height: 80vh;">
-                <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
-
-                    <?php
-                    include('contents/thankyou.php');
-
-                    ?>
-                </div>
-
+        <div class="home row  " style="min-height: 100vh;">
+            <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+                <?php
+                include('contents/home.php');
+                ?>
             </div>
-            <?php
-            include('containers/footer.php');
-            ?>
+        </div>
+        <div class="about_me row  " style="min-height: 100vh;">
+            <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+                <?php
+                include('contents/aboutme.php');
+
+                ?>
+            </div>
+
+        </div>
+        <div class="work row  " style="min-height: 100vh;">
+            <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+                <?php
+                include('contents/work.php');
+
+                ?>
+            </div>
+
+        </div>
+        <div class="projects row  " style="min-height: 100vh;">
+            <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+                <?php
+                include('contents/projects.php');
+
+                ?>
+                <div class="contact row m-4 " style="min-height: 80vh;">
+                    <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+
+                        <?php
+                        include('contents/thankyou.php');
+
+                        ?>
+                    </div>
+
+                </div>
+                <?php
+                include('containers/footer.php');
+                ?>
+            </div>
+
         </div>
 
     </div>
 
-   
+    <div class="unavailable">
 
+        <div class="home row  " style="min-height: 50vh;">
+            <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
+                <div class="color-white typewitter p-4"> The site is curently not available in Mobile/Tablet. Please Open through a PC to access it. <br> Thank You </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>

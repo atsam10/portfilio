@@ -36,7 +36,7 @@
                                     </div>
 
                                     <div class="prj_des  px-2 pt-3 pb-3" style="background-color: #122240">
-                                        A web application developed 
+                                        A web application developed for a resturant that I used to work. It's a recipe book for all the cocktails and mocktails available in the resturant.
                                     </div>
                                     <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-end" style="color: #ffffff;  transform: scale(1.2,1.2);">
 
@@ -59,7 +59,7 @@
 
                     <div class="d-flex flex-row mb-3">
                          <!-- description of the proj -->
-                        <div class="p-2 mt-4 ">
+                        <div class=" mt-4 ">
 
                             <div class=" py-5 text-center ">
 
@@ -71,8 +71,8 @@
                                         <h2> Nutrition Website </h2><br>
                                     </div>
 
-                                    <div class="prj_des  px-2 pt-3 pb-3" style="background-color: #122240">
-                                        A Bar Manual made for a resturant I worked in.
+                                    <div class="prj_des  px-2 pt-3 pb-3"  style="background-color: #122240; ">
+                                    A demo website for a Nutritionist where Clients can see the available meal plans, book appointments as well as buy the meal plans
                                     </div>
                                     <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-start" style="color: #ffffff;  transform: scale(1.2,1.2);">
 
@@ -90,7 +90,7 @@
                         <!-- photo of the project -->
                         <div class="p-2 w-50">
                             <a href="">
-                                <div class="proj_img_Nu m-2"></div>
+                                <div class="proj_img_Nu "></div>
                             </a>
                         </div>
 
@@ -119,7 +119,7 @@
                                         </div>
 
                                         <div class="prj_des  px-2 pt-3 pb-3" style="background-color: #122240">
-                                            A Bar Manual made for a resturant I worked in.
+                                            A comercial website made for my sister's resturant in neutral bay. 
                                         </div>
                                         <div class="pt-2 prj_tech d-flex flex-row mb-3 justify-content-end" style="color: #ffffff;  transform: scale(1.2,1.2);">
 
