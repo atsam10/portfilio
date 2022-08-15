@@ -1,8 +1,20 @@
+.home , .about_me, .work , .projects {
+  min-height: 100vh;
+}
+
 .unavailable{
+  position: relative;
   visibility: hidden;
 }
+
+
+.Portfilio{
+  visibility: visible;
+  position: relative;
+ }
 /* for navbar */
 #navbar {
+  
   transition-duration: 0.25s;
 }
 
@@ -306,11 +318,18 @@
 
 /* resposivness */
 @media (max-width: 960px) {
- .Portfilio{
-  visibility: hidden;
- }
- .unavailable{
-  visibility: visible;
+
+/* for home page */
+
+.home , .about_me, .work , .projects {
+  min-height: 50vh;
+}
+
+.aboutme {
+ 
+  margin: 100px;
+  padding-left: 30px;
+  
 }
 
 }

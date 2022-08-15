@@ -8,6 +8,7 @@
     <title>Aashish Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.PNG">
     <script src="https://kit.fontawesome.com/70c966dfe1.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="js/script.js"> </script>
@@ -22,14 +23,14 @@
         include('containers/social.php');
         ?>
 
-        <div class="home row  " style="min-height: 100vh;">
+        <div class="home row  " >
             <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
                 <?php
                 include('contents/home.php');
                 ?>
             </div>
         </div>
-        <div class="about_me row  " style="min-height: 100vh;">
+        <div class="about_me row  ">
             <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
                 <?php
                 include('contents/aboutme.php');
@@ -38,7 +39,7 @@
             </div>
 
         </div>
-        <div class="work row  " style="min-height: 100vh;">
+        <div class="work row  ">
             <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
                 <?php
                 include('contents/work.php');
@@ -47,7 +48,7 @@
             </div>
 
         </div>
-        <div class="projects row  " style="min-height: 100vh;">
+        <div class="projects row  ">
             <div class=" container align-self-center mx-auto d-flex  justify-content-center  ">
                 <?php
                 include('contents/projects.php');
