@@ -178,9 +178,10 @@
 }
 
 .work {
-  margin-left: 214.5px;
+  margin-top: 50px;
+  margin-left: 150px;
   max-width: 700px;
-  margin-right: 214.5px;
+  margin-right: 150px;
 }
 
 .work_place {
@@ -254,6 +255,7 @@
   background-size: 609px 396px;
   background-color: #ffffff;
   background-blend-mode: multiply;
+  float: right;
   width: 609px;
   height: 396px;
 }
@@ -295,6 +297,16 @@
   color: #67feda;
 }
 
+ #TSR, #IIb {
+  text-align: right;
+ }
+ #nut{
+  text-align: left;
+ }
+
+
+/* --------------------- */
+/* tnx page */
 .get_in_touch {
   margin: 0px 0px 10px;
   font-weight: 600;
@@ -317,19 +329,89 @@
 
 
 /* resposivness */
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
 
-/* for home page */
 
-.home , .about_me, .work , .projects {
+
+.home  {
   min-height: 50vh;
 }
 
-.aboutme {
+.aboutme, .abt_me {
  
   margin: 100px;
   padding-left: 30px;
-  
+  padding-bottom: 150px;
 }
+  .projects .prj_heading {
+ 
+ 
+  padding-left: 30px;
+ 
+}
+
+  .work {
+    margin-left: 10px;
+    max-width: 600px;
+    margin-right: 10px;
+    padding-bottom: 0%;
+  }
+
+  .projects #abt_description {
+  transform: scale(0.9,0.9);
+  
+  }
+
+}
+
+@media (max-width:900px){
+  .projects #abt_description {
+    transform: scale(0.7,0.7);
+    
+    
+    }
+
+    .projects .prj_heading {
+ 
+ margin-bottom: 0cm;
+      padding-left: 20px;
+     
+    }
+}
+
+@media (max-width:734px){
+.prj_tech{
+  float: left;
+}
+.prj_contents{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+}
+
+.prj_des{
+
+
+
+}
+#TSR, #IIb, #nut {
+  text-align: left;
+  margin: 0px;
+ }
+
+ .proj_img_BM {
+
+}
+.proj_img_Nu {
+  float: right;
+ 
+}
+.proj_img_IIB {
+
+}
+.projects #abt_description {
+  transform: scale(0.85,0.85);
+  
+  }
 
 }

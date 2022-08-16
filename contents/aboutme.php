@@ -1,4 +1,4 @@
-<div class="container width_managed p-3">
+<div class="container abt_me border border-light width_managed p-3">
 <a  id="about"></a>
 
     <div class=" title color-white typewitter"><span class="color-lightgreen">01.</span> About me </div>
@@ -30,24 +30,24 @@
                 <div class="d-flex flex-row mb-3">
                     <div class="p-2 w-50">
                         <ul>
-                            <li>HTML</li>
-                            <li>Cascading Style Sheets (CSS)</li>
-                            <li>PHP </li>
-                            <li>PhpMyAdmin</li>
-                            <li>JavaScript</li>
-                            <li>JavaScript frameworks </li>
-                            <li>Java</li>
+                            <li  class="des_des">HTML</li>
+                            <li  class="des_des">Cascading Style Sheets (CSS)</li>
+                            <li  class="des_des">PHP </li>
+                            <li  class="des_des">PhpMyAdmin</li>
+                            <li  class="des_des">JavaScript</li>
+                            <li  class="des_des">JavaScript frameworks </li>
+                            <li  class="des_des">Java</li>
                         </ul>
                     </div>
                     <div class="p-2">
 
                         <ul>
-                            <li>Word Press</li>
-                            <li>Jquery</li>
-                            <li>GitHub</li>
-                            <li>MySQL</li>
-                            <li>Agile Methodologies </li>
-                            <li>Object-Oriented Programming (OOP) </li>
+                            <li  class="des_des">Word Press</li>
+                            <li  class="des_des">Jquery</li>
+                            <li  class="des_des">GitHub</li>
+                            <li  class="des_des">MySQL</li>
+                            <li  class="des_des">Agile Methodologies </li>
+                            <li  class="des_des">Object-Oriented Programming (OOP) </li>
 
                         </ul>
                     </div>
