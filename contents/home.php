@@ -1,4 +1,4 @@
-<div class="container width_managed border border-light aboutme p-4">
+<div class="container width_managed  aboutme p-4">
 
 <div class="color-lightgreen typewitter">Hi, my name is </div> <br>
 <div class=" pb-2" > <span id="myname">Aashish Gurung</span> <br>
